@@ -1,0 +1,156 @@
+
+*
+{
+    color: rgb(255, 255, 255);
+}
+
+body
+{
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 50px;
+}
+
+a img
+{
+    height: 30px;
+    width: 30px;
+}
+
+header
+{
+    margin-bottom: 50px;
+}
+
+.a__header-huddle-logo img
+{
+    width: 264px;
+    height: 66px;
+}
+
+main
+{
+    display: flex;
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+h1
+{
+    margin: 45px 0;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.article__div-text-container
+{
+    flex: 1;
+}
+
+.button-container
+{
+    margin-top: 30px;
+}
+
+button
+{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: hsl(257, 40%, 49%);
+
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+
+    -webkit-box-shadow: 0px 2px 30px 10px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 2px 30px 10px rgba(0,0,0,0.35);
+    box-shadow: 0px 2px 30px 10px rgba(0,0,0,0.35);
+}
+
+button:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer
+{
+    margin-top: 50px;
+}
+
+.div__a-logo-container
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-icon
+{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    border: 1px solid rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+.a-icon:hover
+{
+    border-color: hsl(300, 69%, 71%);
+}
+
+.a-icon:hover > .a__ion-icon
+{
+    color: hsl(300, 69%, 71%);
+}
+
+.a__ion-icon
+{
+    height: 30px;
+    width: 30px;
+}
+
+.a-icon:hover > [alt="Facebook Icon"]
+{
+    content: url('images/facebook-f-pink.svg');
+}
+
+.attribution a
+{
+    color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 1100px)
+{
+    main
+    {
+        flex-direction: column;
+    }
+
+    article
+    {
+        text-align: center;
+    }
+
+    .div__a-logo-container
+    {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
