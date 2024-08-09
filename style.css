@@ -4,17 +4,7 @@
     --Soft-Magenta: hsl(300, 69%, 71%);
     --White: hsl(0, 0%, 100%);
 }
-/*
-### Headings
-- font-family: "Poppins", system-ui;
-  font-weight: 400;
-- font-family: "Poppins", system-ui;
-  font-weight: 600;
 
-### Body
-- font-family: "Open Sans", sans-serif;
-- Weights: 400
-*/
 body
 {
     font-size: 11px;
